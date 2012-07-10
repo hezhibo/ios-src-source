@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52F5A5F15AC059C00E6F95E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52F5A5E15AC059C00E6F95E /* UIKit.framework */; };
+		E52F5A6115AC059C00E6F95E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52F5A6015AC059C00E6F95E /* Foundation.framework */; };
+		E52F5A6315AC059C00E6F95E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52F5A6215AC059C00E6F95E /* CoreGraphics.framework */; };
+		E52F5A6915AC059C00E6F95E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E52F5A6715AC059C00E6F95E /* InfoPlist.strings */; };
+		E52F5A6B15AC059C00E6F95E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F5A6A15AC059C00E6F95E /* main.m */; };
+		E52F5A6F15AC059C00E6F95E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F5A6E15AC059C00E6F95E /* AppDelegate.m */; };
+		E52F5A7215AC059C00E6F95E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F5A7115AC059C00E6F95E /* ViewController.m */; };
+		E52F5A7515AC059C00E6F95E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52F5A7315AC059C00E6F95E /* ViewController.xib */; };
+		E52F5A8015AC082400E6F95E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52F5A7F15AC082400E6F95E /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E52F5A5A15AC059C00E6F95E /* Path2ParallaxEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Path2ParallaxEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52F5A5E15AC059C00E6F95E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E52F5A6015AC059C00E6F95E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E52F5A6215AC059C00E6F95E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E52F5A6615AC059C00E6F95E /* Path2ParallaxEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Path2ParallaxEffect-Info.plist"; sourceTree = "<group>"; };
+		E52F5A6815AC059C00E6F95E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E52F5A6A15AC059C00E6F95E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E52F5A6C15AC059C00E6F95E /* Path2ParallaxEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Path2ParallaxEffect-Prefix.pch"; sourceTree = "<group>"; };
+		E52F5A6D15AC059C00E6F95E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E52F5A6E15AC059C00E6F95E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E52F5A7015AC059C00E6F95E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E52F5A7115AC059C00E6F95E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E52F5A7415AC059C00E6F95E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E52F5A7F15AC082400E6F95E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52F5A5715AC059C00E6F95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52F5A5F15AC059C00E6F95E /* UIKit.framework in Frameworks */,
+				E52F5A6115AC059C00E6F95E /* Foundation.framework in Frameworks */,
+				E52F5A6315AC059C00E6F95E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52F5A4F15AC059C00E6F95E = {
+			isa = PBXGroup;
+			children = (
+				E52F5A6415AC059C00E6F95E /* Path2ParallaxEffect */,
+				E52F5A5D15AC059C00E6F95E /* Frameworks */,
+				E52F5A5B15AC059C00E6F95E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52F5A5B15AC059C00E6F95E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52F5A5A15AC059C00E6F95E /* Path2ParallaxEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52F5A5D15AC059C00E6F95E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52F5A5E15AC059C00E6F95E /* UIKit.framework */,
+				E52F5A6015AC059C00E6F95E /* Foundation.framework */,
+				E52F5A6215AC059C00E6F95E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E52F5A6415AC059C00E6F95E /* Path2ParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				E52F5A7F15AC082400E6F95E /* 1.jpg */,
+				E52F5A6D15AC059C00E6F95E /* AppDelegate.h */,
+				E52F5A6E15AC059C00E6F95E /* AppDelegate.m */,
+				E52F5A7015AC059C00E6F95E /* ViewController.h */,
+				E52F5A7115AC059C00E6F95E /* ViewController.m */,
+				E52F5A7315AC059C00E6F95E /* ViewController.xib */,
+				E52F5A6515AC059C00E6F95E /* Supporting Files */,
+			);
+			path = Path2ParallaxEffect;
+			sourceTree = "<group>";
+		};
+		E52F5A6515AC059C00E6F95E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52F5A6615AC059C00E6F95E /* Path2ParallaxEffect-Info.plist */,
+				E52F5A6715AC059C00E6F95E /* InfoPlist.strings */,
+				E52F5A6A15AC059C00E6F95E /* main.m */,
+				E52F5A6C15AC059C00E6F95E /* Path2ParallaxEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52F5A5915AC059C00E6F95E /* Path2ParallaxEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52F5A7815AC059C00E6F95E /* Build configuration list for PBXNativeTarget "Path2ParallaxEffect" */;
+			buildPhases = (
+				E52F5A5615AC059C00E6F95E /* Sources */,
+				E52F5A5715AC059C00E6F95E /* Frameworks */,
+				E52F5A5815AC059C00E6F95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Path2ParallaxEffect;
+			productName = Path2ParallaxEffect;
+			productReference = E52F5A5A15AC059C00E6F95E /* Path2ParallaxEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52F5A5115AC059C00E6F95E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E52F5A5415AC059C00E6F95E /* Build configuration list for PBXProject "Path2ParallaxEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E52F5A4F15AC059C00E6F95E;
+			productRefGroup = E52F5A5B15AC059C00E6F95E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52F5A5915AC059C00E6F95E /* Path2ParallaxEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52F5A5815AC059C00E6F95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52F5A6915AC059C00E6F95E /* InfoPlist.strings in Resources */,
+				E52F5A7515AC059C00E6F95E /* ViewController.xib in Resources */,
+				E52F5A8015AC082400E6F95E /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52F5A5615AC059C00E6F95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52F5A6B15AC059C00E6F95E /* main.m in Sources */,
+				E52F5A6F15AC059C00E6F95E /* AppDelegate.m in Sources */,
+				E52F5A7215AC059C00E6F95E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E52F5A6715AC059C00E6F95E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52F5A6815AC059C00E6F95E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E52F5A7315AC059C00E6F95E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52F5A7415AC059C00E6F95E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52F5A7615AC059C00E6F95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E52F5A7715AC059C00E6F95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52F5A7915AC059C00E6F95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Path2ParallaxEffect/Path2ParallaxEffect-Prefix.pch";
+				INFOPLIST_FILE = "Path2ParallaxEffect/Path2ParallaxEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E52F5A7A15AC059C00E6F95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Path2ParallaxEffect/Path2ParallaxEffect-Prefix.pch";
+				INFOPLIST_FILE = "Path2ParallaxEffect/Path2ParallaxEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52F5A5415AC059C00E6F95E /* Build configuration list for PBXProject "Path2ParallaxEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52F5A7615AC059C00E6F95E /* Debug */,
+				E52F5A7715AC059C00E6F95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52F5A7815AC059C00E6F95E /* Build configuration list for PBXNativeTarget "Path2ParallaxEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52F5A7915AC059C00E6F95E /* Debug */,
+				E52F5A7A15AC059C00E6F95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52F5A5115AC059C00E6F95E /* Project object */;
+}
